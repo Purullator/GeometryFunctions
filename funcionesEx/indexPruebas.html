@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script src="js/geometria.js"></script>
+</head>
+<body>
+<h1>EJERCICIOS</h1>
+<h2>Prueba de la función minimo()</h2>
+<script>
+
+
+	document.write('------minimo pruebas--------- <br>');
+
+	document.write(minimo(100, 50)+'<br>');
+	document.write(minimo(0, -10)+'<br>');
+	document.write(minimo(-10, -50)+'<br>');
+	document.write(minimo(-1.52, 5.2)+'<br>');
+	document.write(minimo(0, 0)+'<br>');
+	document.write(minimo(1.51, 1.52)+'<br>');
+
+	document.write('-------Area Triangulo Pruebas-------- <br>');
+
+	document.write(areaTriangulo(5, 2)+ '<br>');
+	document.write(areaTriangulo(8, 5)+ '<br>');
+	document.write(areaTriangulo(10, 2)+ '<br>');
+	document.write(areaTriangulo(-5, 2)+ '<br>');
+	document.write(areaTriangulo('patata', 2)+ '<br>');
+
+	document.write('--------Area rectángulo pruebas----------<br>');
+
+	document.write(areaRectangulo(10,15)+ '<br>');
+	document.write(areaRectangulo(0,0)+ '<br>');
+	document.write(areaRectangulo(-5,-15)+ '<br>');
+	document.write(areaRectangulo(10,-25)+ '<br>');
+
+	document.write('----------Ejercicio 3, descuento---------<br>');
+
+	document.write(descuento(1000, 20)+ '<br>');
+	document.write(descuento(1000, 100)+ '<br>');
+	document.write(descuento(1000, 50)+ '<br>');
+	document.write(descuento(1000, 0)+ '<br>');
+	document.write(descuento(0, 10)+ '<br>');
+
+	document.write(descuento(1000, -20)+ '<br>');
+	document.write(descuento(1000, 120)+ '<br>');
+	document.write(descuento(-1000, 20)+ '<br>');
+	document.write(descuento(-1000, -20)+ '<br>');
+
+	document.write('--------- Ejercicio 4, EsPrimate?-------<br>');
+
+	document.write(esPrimo(7)+ '<br>');
+	document.write(esPrimo(43)+ '<br>');
+	document.write(esPrimo(1)+ '<br>');
+	document.write(esPrimo(966)+ '<br>');
+
+
+
+
+
+</script>
+
+<h2>Ejercicio 06</h2>
+
+<img src="../musichouse/imagenes/saxo1.webp" width="100" id="foto1" onclick="escalar(this, 2)">
+
+<img src="../musichouse/imagenes/jupitertrumpet.png" width="100" id="foto2" onclick="escalar(this, 4)">
+
+<img src="../musichouse/imagenes/logo.jpg" width="100" id="foto3" onclick="escalar(this, 3)">
+
+
+
+</body>
+</html>

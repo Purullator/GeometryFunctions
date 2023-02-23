@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+<body>
+
+<h1>Pruebas de colorea()</h1>
+<div id="div1" onclick="colorea(document.querySelector('#div1'), generarColor())"></div>
+<div></div>
+<div></div>
+<br>
+<div id="muestra"></div>
+<input type="color" id="inColor" value="#ffffff">
+<br>
+
+
+<script>
+	
+	colorea(document.body, 'yellow');
+
+	var divs = document.getElementsByTagName('div');
+	
+	colorea(divs[0], 'red');
+	colorea(divs[1], 'green');
+	colorea(divs[2], 'blue');
+
+   	
+
+	inColor.onchange = function(){
+		colorea(muestra, inColor.value);
+	}
+
+</script>
+
+
+</body>
+</html>
